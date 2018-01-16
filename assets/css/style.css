@@ -1,7 +1,27 @@
 body{
-    background-image: url(../images/background.png)
+    background-image: url(../images/background.png);
 }
 
 .navbar-brand{
     background: #4aaaa5;
+}
+.navbar-default .navbar-brand {
+    color: white;
+}
+
+.box{
+    background: white;
+    padding: 25px;  
+    border: 2px solid black;
+
+
+}
+
+div{
+
+}
+
+.footer{
+    height: 40px;
+    background: gray;
 }
