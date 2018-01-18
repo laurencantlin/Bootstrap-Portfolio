@@ -68,6 +68,14 @@ p{
         padding: 0 15px;
     }
 
+    .navbar .container-fluid {
+        margin: 0 ;
+        padding: 0;
+    }
+
+    div .full{
+        padding: 0;
+    }
     .navbar .navbar-brand {
         background: #4aaaa5;
         color: white;
@@ -105,6 +113,12 @@ p{
 
     li{
         padding: 29px;
+    }
+    .container-fluid .navbar-brand{
+        padding: 25px;
+    }
+    .container-fluid li{
+        padding:15px;
     }/* ----*/
 
 /*BOXESBOXESBOXESBOXESBOXES   */
@@ -145,9 +159,10 @@ p{
         right: 0;
         bottom: 0;
         left: 0;
-        height: 100px;
+        /* height: 100px; */
         background: gray;
-        padding:20px;
+        padding:30px;
         color: white;
+        text-align: center;
         border-top: 5px solid #4aaaa5;
     }/* ----*/
