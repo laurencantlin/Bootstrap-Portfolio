@@ -170,17 +170,21 @@ p{
 /* PORTFOLIO PAGE PORTGOLIO PAGE    */
     #project1{
         width: 100%;
+        position: relative;
 }
 
     .h3project1{  background: #4aaaa5;
         text-align: center;
         color: white;
+        /* position: absolute;
+        width:;
+        left: 0; */
     }
 
-    #project2{
-    }
+    /* #project2{
+    } */
 
-    .h3project2{
+    /* .h3project2{
         background: #4aaaa5;
         text-align: center;
         color: white;
@@ -195,6 +199,65 @@ p{
         color: white;
     }
 
+    
+
+      .blue-text-block{
+        background-color: #4aaaa5;
+        color: white;
+        padding: 10px;
+    
+    }
+    
+      a.link-card{
+        width: 250px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        z-index: 0;
+        position: relative;
+      }
+
+    .project-text{
+        text-align: center;
+        text-indent: 0;
+
+    }
+
+
+    a.proj-link-card:link{
+        padding:0;       
+
+    } */
+
+    div.polaroid {
+        /* width: 250px; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        text-align: center;
+        z-index: 0;
+        position: relative;
+
+      }
+      .project-img{
+        position: relative;
+        z-index: -1;
+
+    } 
+    div.container2 {
+        padding: 20px 10px;
+        background-color: #4aaaa5;
+        margin-bottom: 25px;
+        position: absolute;
+      }
+      
+    h3.proj-title{
+        color: white;
+        background-color: transparent;
+        margin-bottom: 0;
+        border: none;
+        padding:0px;
+        /* position: relative; */
+        }
+/* position: relative; */
+      /* } */
 /* CONTACT PAGE CONTACT PAGE */
     .formline{
         width: 100%;
