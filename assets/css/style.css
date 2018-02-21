@@ -234,7 +234,7 @@ p{
         text-align: center;
         z-index: 0;
         position: relative;
-
+/* margin-bottom: 45px; */
       }
       .project-img{
         position: relative;
@@ -242,10 +242,14 @@ p{
 
     } 
     div.container2 {
-        padding: 20px 10px;
+        padding: 23px 10px;
         background-color: #4aaaa5;
         margin-bottom: 25px;
-        position: absolute;
+        /* position: absolute;
+        width: 100%; */
+        /* bottom: -35px; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.05), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
       }
       
     h3.proj-title{
